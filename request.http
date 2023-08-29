@@ -1,0 +1,25 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+  "name": "cana",
+  "price": 4
+}
+
+###
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/a698c17c-3200-471c-91ad-672dcb200029
+
+###
+PUT  http://localhost:4002/products/2f2bec9b-8cd1-4c66-805e-65e7c608305b
+Content-Type: application/json
+
+{
+  "name": "banana prata",
+  "price": 3
+}
+
+###
+DELETE http://localhost:4002/products/0bc66e81-c98b-4799-af43-7850e9ba35e2
