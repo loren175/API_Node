@@ -2,8 +2,8 @@ POST http://localhost:4002/products
 Content-Type: application/json
 
 {
-  "name": "cana",
-  "price": 4
+  "name": "suco",
+  "price": 9
 }
 
 ###
@@ -13,7 +13,7 @@ GET http://localhost:4002/products
 GET http://localhost:4002/products/a698c17c-3200-471c-91ad-672dcb200029
 
 ###
-PUT  http://localhost:4002/products/2f2bec9b-8cd1-4c66-805e-65e7c608305b
+PUT  http://localhost:4002/products/b7ad1e36-6116-4266-bea8-42aaf7743e06
 Content-Type: application/json
 
 {
@@ -22,4 +22,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:4002/products/0bc66e81-c98b-4799-af43-7850e9ba35e2
+DELETE http://localhost:4002/products/0a8512a5-90da-4661-b74a-a55ed5231db5
